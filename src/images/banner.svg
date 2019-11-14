@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="202px" viewBox="0 0 1440 202" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>banner</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M69,0 L1509,0 L1509,180 C1402.80508,159.723661 1324.97175,149.723661 1275.5,150 C1069.18553,151.152428 900.912915,197.947123 803,195.5 C585.5711,190.065833 418.403464,150 275,150 C-0.111111111,150 -68.7777778,160 69,180 L69,0 Z" id="path-1"></path>
+        <filter x="-0.5%" y="-2.6%" width="100.9%" height="107.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M68.9630427,-1.42108547e-14 L1508.96304,-1.42108547e-14 L1508.96304,180 C1402.76812,159.723661 1324.93479,149.723661 1275.46304,150 C1069.14858,151.152428 900.875957,197.947123 802.963043,195.5 C585.534143,190.065833 418.366506,150 274.963043,150 C-0.148068413,150 -68.8147351,160 68.9630427,180 L68.9630427,-1.42108547e-14 Z" id="path-3"></path>
+        <filter x="-0.5%" y="-2.6%" width="100.9%" height="107.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD">
+            <g id="banner" transform="translate(-69.000000, 0.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#00B13B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill-opacity="0.3" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

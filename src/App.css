@@ -1,22 +1,41 @@
-.App {
-  text-align: center;
+:root{
+  --main-font: AppleGothic;
+  --main-green: rgba(0, 177, 59, 0.541);
+  --add-btn:rgba(0, 177, 59, 0.527);
+  --delete-btn: rgba(224, 32, 32, 0.479);
 }
-
-.App-logo {
-  height: 40vmin;
+#root, html{
+  background-color: rgba(107, 122, 143, 0.164);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* JUMBOTRON */
+.jumbotron-fluid{
+  background-color: var(--main-green);
+}
+.container h1,
+.container p{
+  color: white;
+  font-family: var(--main-font);
+}
+.addBtn,
+.deleteBtn{
+  background-color: var(--add-btn);
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  font-size: 1em;
+  border-color: transparent;
   color: white;
 }
-
-.App-link {
-  color: #09d3ac;
+.deleteBtn{
+  background-color: var(--delete-btn);
+}
+form{
+  background-color: rgba(0, 177, 59, 0.541);
+}
+form h3{
+  color: white;
+  font-family: var(--main-font);
+}
+.formOverlay{
+  background-color: rgba(255, 255, 255, 0.349);
 }
